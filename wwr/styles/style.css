@@ -1,22 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Rock+Salt&family=Shadows+Into+Light&display=swap');;
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+.home-title{
+    font-family: 'Rock Salt', 'Shadows Into Light', sans-serif;
+    font-size: 2em;
+    margin-top: 200px;
+}
 .logo{
     width: 80px;
+    padding: 0;
+    border: 4px solid #00537a;
+    border-radius: 50%;
+}
+#logo-link {
+    padding-top: 5px;
 }
 nav a{
     text-align: center;
     text-decoration: none;
+    padding: 10px;
 }
 #hero-img{
     width: 100%;
+    
 }
 #hero-msg h1{
     text-align: center;
+    font-family: 'Rock Salt', 'Shadows Into Light', sans-serif;
+    color: #00537a;
 }
 #hero-msg h4{
     text-align: center;
+    font-family: 'Raleway', 'Roboto', sans-serif;
 }
 .button-box{
     text-align: center;
@@ -25,6 +44,11 @@ nav a{
     background-color: #00537a;
     color: #ffd35b;
     text-decoration: none;
+    font-family: 'Raleway', 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: 5px solid #ffd35b;
+    margin-top: 50px;
 
 }
 .book:hover, .join:hover {
@@ -37,7 +61,17 @@ main section{
 #background {
     height: 725px;
 }
-body
+body {
+        background-color: white;
+        font-family: Raleway, Roboto, sans-serif;
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+    }
+h2{
+    margin: 0;
+}
+
 header{
     background-color: #f5a201;
     color: #00537a;
@@ -53,13 +87,37 @@ nav a:hover {
 }
 .msg{
     background-color: #00537a;
+    font-size: .8em;
+    padding: 35px
+}
+.river-card, .camping-card, .rapids-card{   
+    margin: 200px 0;
+}
+.card-img {
+    height: auto;
+    width: 50%;
+    max-width: 500px;
+    border: #ffd35b 10px solid;
 }
 .card-icon{
     width: 80px;
+    padding-top: 10px;
+}
+.message{
+    background-color: #00537a;
+    color: #f5a201;
+}
+.message h2{
+    font-family: 'Rock Salt', 'Shadows Into Light', sans-serif;
+}
+.message p{
+    font-family: 'Raleway', 'Roboto', sans-serif;
 }
 footer{
     background-color: #f5a201;
     color: #00537a;
+    padding: 10px;
+    margin-top: 50px;
 }
 footer p{
     font-size: 1.2em;
@@ -70,4 +128,7 @@ footer a{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+.social{
+    padding: 30px
 }
