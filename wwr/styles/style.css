@@ -58,7 +58,7 @@ nav a{
     font-family: 'Rock Salt', 'Shadows Into Light', sans-serif;
     color: #ffd35b;
     background-color: #00537a;
-    opacity: .7;
+    opacity: .9;
     border: 3px solid #f5a201;
     border-radius: 5px;
 }
@@ -68,7 +68,7 @@ nav a{
     color: #f5a201;
 /* I couldn't get a readable color with the image I used so I gave is a bbackground and made it trasnparent*/
     background-color: #00537a;
-    opacity: .7;
+    opacity: .9;
     border: 3px solid #f5a201;
     border-radius: 5px;
     margin-top: -10px;
