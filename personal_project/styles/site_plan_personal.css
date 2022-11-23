@@ -31,8 +31,10 @@ Fonts are separated by a & */
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+
 body {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
@@ -41,7 +43,6 @@ body {
 img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -64,6 +65,7 @@ header {
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
+
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
@@ -82,6 +84,7 @@ p {
   width: 25%;
   height: 3em;
 }
+
 .primary {
   background-color: var(--primary-color);
 }
@@ -94,10 +97,12 @@ p {
 .accent2{
   background-color: var(--accent2-color);
 }
+
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
+
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
@@ -107,12 +112,14 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
+
 }
 nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -121,6 +128,7 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+
 .sitemap {
   display: grid;
   justify-content: center;
@@ -133,7 +141,9 @@ nav a:hover {
     "page2 page2 . . page3 page3";
 }
 .sitemap > div {
+
   text-align: center;
+
 }
 .sm-home {
   grid-area: home;
@@ -150,15 +160,18 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
+
 .top {
   grid-area: top;
   border-left: 1px solid;
 }
+
 .left {
   grid-area: left;
   border-top: 1px solid;
   border-left: 1px solid;
 }
+
 .right {
   grid-area: right;
   border-top: 1px solid;
