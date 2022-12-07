@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Comfortaa:wght@300&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    display: grid;
+    background-color: #6c584c;
+    color: #d9d0b4;    
+    vertical-align: baseline;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Chewy', 'Shadows Into Light', sans-serif;
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #d9d0b4;
+    text-decoration: none;
+}
+.logo {
+    width: 150px;
+    padding: 0;
+    border: 4px solid #d9d0b4;
+    border-radius: 60%;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}nav a:hover {
+    background-color: #d9d0b4;
+    color: #8097be;
+}
+#banner-img {
+    width: 100%;
+    margin-top: -25px;
+}
+#banner-msg h1{
+    text-align: center;
+    font-family: Chewy;
+    color: #8097be;
+    font-size: 2.5em;
+}
+#banner-msg h3{
+    text-align: center;
+    font-family: Raleway, Helvetica, sans-serif;
+    color: #8097be;
+    font-size: 1em;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card-img {
+    width: 90%;
+    height: 70%;
+    max-width: 400px;
+    transition: transform .5s;
+    box-shadow: 10px 10px 10px #6f7364;   
+}
+.black:hover,.sun:hover,.panda:hover, .sloth:hover,.brown:hover,.polar:hover,.andean:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
+.black {
+    width: 100%;
+    max-width: 400px;
+    grid-column: 1/2;
+    grid-row:1/2;
+    margin: 2.5%;
+    color: #8097be;
+    font-family: Raleway, Helvetica, sans-serif;
+}
+.sun {
+    width: 100%;
+    max-width: 400px;
+    grid-column: 2/3;
+    grid-row:1/2;
+    margin: 2.5%;
+
+    color: #6c584c;
+    font-family: Raleway, Helvetica, sans-serif;
+}
+
+.panda {
+    width: 100%;
+    max-width: 400px;
+    grid-column: 3/4;
+    grid-row:1/2;
+    margin: 2.5%;
+    color: #8097be;
+
+    font-family: Raleway, Helvetica, sans-serif;
+}
+.sloth {
+    width: 100%;
+    max-width: 400px;
+    grid-column: 1/2;
+    grid-row:2/3;
+    margin: 2.5%;
+    margin-top: 50px;
+
+    color: #6c584c;
+    font-family: Raleway, Helvetica, sans-serif;
+}
+.brown {
+    width: 100%;
+    max-width: 400px;
+    grid-column: 2/3;
+    grid-row:2/3;
+    margin: 2.5%;
+    margin-top: 50px;
+    color: #8097be;
+
+    font-family: Raleway, Helvetica, sans-serif;
+}
+.polar {
+    width: 100%;
+    max-width: 400px;
+    grid-column: 3/4;
+    grid-row:2/3;
+    margin: 2.5%;
+    margin-top: 50px;
+
+    color: #6c584c;
+    font-family: Raleway, Helvetica, sans-serif;
+}
+.andean {
+    width: 100%;
+    max-width: 400px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 5%;
+    margin-top: 55px;
+
+    color: #6c584c;
+    font-family: Raleway, Helvetica, sans-serif;
+}
+.black h3, .sun h3, .panda h3, .sloth h3, .brown h3, .polar h3, .andean h3 {
+    font-family: chewy;
+    font-size: 2em;
+    text-align: center;
+    margin-top: -2.5px;
+    margin-bottom: -7px
+}
+.black .card-img, .panda .card-img, .brown .card-img {
+    border: 10px solid #6c584c;
+}
+.sun .card-img, .sloth .card-img, .polar .card-img, .andean .card-img {
+    border: 10px solid #8097be;
+}
+footer{
+    background-color: #6c584c;
+    color: #d9d0b4;
+    padding: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer a{
+    color: #d9d0b4;
+    font-family: chewy ;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: #8097be;
+}
+.social{
+    padding: 30px
+}
