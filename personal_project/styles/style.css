@@ -48,7 +48,7 @@ nav a:visited{
 }
 #banner-msg h3{
     text-align: center;
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
     color: #8097be;
     font-size: 1em;
 }
@@ -74,7 +74,7 @@ nav a:visited{
     grid-row:1/2;
     margin: 2.5%;
     color: #8097be;
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
 }
 .sun {
     width: 100%;
@@ -84,7 +84,7 @@ nav a:visited{
     margin: 2.5%;
 
     color: #6c584c;
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
 }
 
 .panda {
@@ -95,7 +95,7 @@ nav a:visited{
     margin: 2.5%;
     color: #8097be;
 
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
 }
 .sloth {
     width: 100%;
@@ -106,7 +106,7 @@ nav a:visited{
     margin-top: 50px;
 
     color: #6c584c;
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
 }
 .brown {
     width: 100%;
@@ -117,7 +117,7 @@ nav a:visited{
     margin-top: 50px;
     color: #8097be;
 
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
 }
 .polar {
     width: 100%;
@@ -128,7 +128,7 @@ nav a:visited{
     margin-top: 50px;
 
     color: #6c584c;
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
 }
 .andean {
     width: 100%;
@@ -139,7 +139,7 @@ nav a:visited{
     margin-top: 55px;
 
     color: #6c584c;
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
 }
 .black h3, .sun h3, .panda h3, .sloth h3, .brown h3, .polar h3, .andean h3 {
     font-family: chewy;
@@ -258,6 +258,7 @@ footer a:hover {
     width: 100%;
     max-width: 1000px;
     margin-top: 200px;
+    margin-bottom: 10px;
 }
 .gen-black-t {
     grid-column: 2/4;
@@ -275,7 +276,7 @@ footer a:hover {
     margin-left: 30px;
     margin-top: -2px;
     color: #6c584c;
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
     font-size: 1em;
 }
 .gen-brown-img {
@@ -301,7 +302,7 @@ footer a:hover {
     grid-row: 4/5;
     margin-top: -3px;
     color: #8097be;
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
     font-size: 1em;
     margin-left: 30px;
     margin-right: 3px;
@@ -333,7 +334,7 @@ footer a:hover {
     grid-row: 6/7;
     margin-left: 30px;
     margin-top: -5px;    
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
     font-size: 1em;
     color: #6c584c;
 }
@@ -450,7 +451,7 @@ footer a:hover {
     margin-left: 30px;
     margin-top: -20px;
     color: #8097be;
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
     font-size: 1em;
 }
 #sun-background {
@@ -484,7 +485,7 @@ footer a:hover {
     grid-row: 4/5;
     margin-top: -150px;
     color: #6c584c;
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
     font-size: 1em;
     margin-left: 30px;
     margin-right: 3px;
@@ -511,7 +512,7 @@ footer a:hover {
     grid-row: 6/7;
     margin-left: 30px;
     margin-top: -50px;    
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
     font-size: 1em;
     color: #8097be;
 }
@@ -545,7 +546,7 @@ footer a:hover {
     grid-row: 8/9;
     margin-top: -3px;
     color: #6c584c;
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: Comfortaa, Helvetica, sans-serif;
     font-size: 1em;
     margin-left: 30px;
     margin-right: 3px;
